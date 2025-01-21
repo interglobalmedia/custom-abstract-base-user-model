@@ -9,11 +9,6 @@ include_trailing_comma = true
 line_length = 88
 multi_line_output = 3
 known_first_party = ["config"]
-[flake8]
-max-line-length = 88
-ignore = F401, F403, F405, E501, W503, F541, F821, F841
-per-file-ignores =
-    config/settings/*:F405 F403 F401
 [tool.djlint]
 profile = "django"
 ignore = "H020,H021,H031"
